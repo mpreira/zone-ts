@@ -22,7 +22,8 @@
   /* TITLES */
   h1, .h1{
     color: #aeb6e1;
-    @apply font-medium text-lg;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5), 2px 2px 2px rgba(255,255,255,0);
+    @apply font-semibold text-lg;
   }
 
   h2, .h2{
@@ -81,17 +82,25 @@
     @apply bg-indigo-50 px-2 py-4 rounded-t-3xl;
   }
 
-  /* .layout {
+  .layout {
     max-width: 68.75rem;
-    @apply w-11/12 mx-auto;
-  } */
+    @apply w-11/12 mx-auto overflow-y-auto;
+  }
 
   /* HOME ARTICLES */
   .home-article{
-    @apply bg-white rounded-3xl p-4 mb-8 last:mb-16;
+    @apply bg-white rounded-3xl drop-shadow-sm p-4 mb-8 last:mb-16 flex flex-col;
+  }
+
+  .home-img{
+    @apply rounded-lg overflow-hidden object-center object-cover w-full h-64;
   }
 
   .article-details{
-    @apply text-xs italic font-thin text-gray-300 flex justify-between;
+    @apply text-xs italic font-thin text-gray-300 flex justify-between mb-2 mx-1;
+  }
+
+  .article-title{
+    @apply mt-2 pl-1;
   }
 }
