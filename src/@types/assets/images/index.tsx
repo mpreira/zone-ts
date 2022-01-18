@@ -12,6 +12,11 @@ import Articles from "./newspaper.png";
 import Videos from "./video-recorder.png";
 import Chrono from "./clock.png";
 
+import FootImg from "./connor-coyne-OgqWLzWRSaI-unsplash.jpg";
+import AthleImg from "./jonathan-chng-3R4vPrSB1c4-unsplash.jpg";
+import EscrimeImg from "./micaela-parente-YGgKE6aHaUw-unsplash(1).jpg";
+import NatationImg from "./serena-repice-lentini-hawN8XnaJuY-unsplash.jpg";
+
 export {
     User,
     Menu,
@@ -24,5 +29,9 @@ export {
     Categories,
     Articles,
     Videos,
-    Chrono
+    Chrono,
+    FootImg,
+    AthleImg,
+    EscrimeImg,
+    NatationImg
 }
