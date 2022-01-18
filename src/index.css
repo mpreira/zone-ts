@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* GENERAL */
+
+  /* FONTS */
+  .Poppins{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .Open-Sans{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .Roboto{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* TITLES */
+  h1, .h1{
+    color: #aeb6e1;
+    @apply font-medium text-lg;
+  }
+
+  h2, .h2{
+    @apply font-semibold;
+  }
+
+  /* BODY */
+  body{
+    @apply bg-indigo-100 text-gray-800 text-base Roboto;
+  }
+
+  .app{
+    @apply w-full h-full box-border;
+  }
+
+  /* HEADER */
+  header{
+    @apply w-full p-4 flex justify-between;
+  }
+
+  .header-icons{
+    @apply flex items-center;
+  }
+
+  .h-icon{
+    @apply h-6 text-violet-800;
+  }
+
+  /* NAVIGATION */
+
+  .sportsnav{
+    @apply w-full overflow-x-auto flex justify-evenly py-4; 
+  }
+
+  .sportsnav img{
+    @apply h-8;
+  }
+
+  .mobile-nav{
+    @apply w-full fixed bottom-0 bg-indigo-50;
+  }
+
+  .mobile-nav-container{
+    @apply w-full flex justify-evenly p-4;
+  }
+
+  .nav-icons{
+    color: #aeb6e1;
+    @apply h-8;
+  }
+
+  /* MAIN */
+  
+  /* CONTAINER */
+  .main-container{
+    @apply bg-indigo-50 px-2 py-4 rounded-t-3xl;
+  }
+
+  /* .layout {
+    max-width: 68.75rem;
+    @apply w-11/12 mx-auto;
+  } */
+
+  /* HOME ARTICLES */
+  .home-article{
+    @apply bg-white rounded-3xl p-4 mb-8;
+  }
+
+  .article-details{
+    @apply text-xs italic font-thin text-gray-300 flex justify-between;
+  }
+}
