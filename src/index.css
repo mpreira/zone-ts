@@ -88,7 +88,7 @@
 
   /* HOME ARTICLES */
   .home-article{
-    @apply bg-white rounded-3xl p-4 mb-8;
+    @apply bg-white rounded-3xl p-4 mb-8 last:mb-16;
   }
 
   .article-details{
