@@ -8,6 +8,7 @@ module.exports = {
       colors:{
         'crimson': '#a20c38',
         'gold': '#fe9f33',
+        'lilac': '#aeb6e1',
       }
     },
   },

@@ -8,6 +8,7 @@ import { PageLayout } from './Layouts/PageLayout';
 // components
 import { Home } from './components/Home/Home';
 import { Test } from './components/Test';
+import { NotFound } from './components/404/NotFound';
 
 export default function App() {
 
@@ -27,8 +28,8 @@ export default function App() {
           <Route element={<PageLayout />}>
             <Route path="/" element={<Home />} />
             <Route path="test" element={<Test />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
-          
         </Routes>
       </Router>
     </div>
